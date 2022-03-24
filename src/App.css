@@ -1,0 +1,14 @@
+.App{
+  text-align: center;
+  margin:auto;
+}
+input:checked + span{
+  text-decoration: line-through;
+}
+.toDoItem{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin:5px;
+}
